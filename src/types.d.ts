@@ -1,9 +1,3 @@
-export interface IData {
-  categoryId: number;
-  category: string;
-  tasks: ITask[];
-}
-
 export interface ITask {
   id: number;
   title: string;
@@ -12,4 +6,5 @@ export interface ITask {
   creator: string;
   created: string;
   deletedAt: string;
+  status: string;
 }
